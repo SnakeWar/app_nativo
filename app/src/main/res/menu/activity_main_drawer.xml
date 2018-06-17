@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_imagem"
+            android:icon="@drawable/ic_menu_gallery"
+            android:iconTint="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="@color/light_font"
+            android:title="Importar" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:iconTint="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="@color/light_font"
+            android:title="Câmera" />
+        <item
+            android:id="@+id/tela_inicial"
+            android:icon="@android:drawable/ic_menu_today"
+            android:iconTint="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="@color/light_font"
+            android:title="Tela Inicial" />
+        <item
+            android:id="@+id/lista"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:iconTint="@color/colorPrimary"
+            android:title="Lista" />
+        <item
+            android:id="@+id/loc_atual"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:iconTint="@color/colorPrimary"
+            android:title="Localização Atual" />
+        <item
+            android:id="@+id/loc_fixa"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:iconTint="@color/colorPrimary"
+            android:title="Localização Fixa" />
+
+</menu>
